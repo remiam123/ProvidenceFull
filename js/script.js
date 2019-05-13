@@ -48,6 +48,11 @@ $( ".nawBtn" ).click(function() {
   $(this).next().slideToggle(300);
 });
 
+$( ".btnFoot" ).click(function() {
+  $(this).next().slideToggle(300);
+});
+
+
 
 
 

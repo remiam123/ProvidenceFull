@@ -375,16 +375,6 @@ img{
     position: relative;
 }
 
-/*
-.draggable{
-    margin-left: 60px;
-}
-
-.slick-list{
-    margin-left: 60px;
-}
-*/
-
 .slick-arrow{
     position: absolute;
     top: 45%;
@@ -1001,6 +991,7 @@ section .transform{
         flex-direction: column;
         height: auto;
         padding-top: 50px;
+        margin-bottom: 50px;
     }
     
     .flex-item{
@@ -1019,12 +1010,12 @@ section .transform{
         align-self: center;
         margin-left: 0;
         margin-top: 0;
-        padding: 10px 20px 90px 80px;
+        padding: 45px 20px 30px 130px;
         width: 100%;
     }
     
     .flex-item1 .pad{
-        padding-right: 30px;
+        padding-right: 10px;
     }
     
     .flex-item1 h2{
@@ -1054,7 +1045,7 @@ section .transform{
         padding: 0;
         width: 100%;
         height: auto;
-        margin-top: 250px;
+        margin-top: 190px;
     }
     
     .padRight{
@@ -1067,22 +1058,23 @@ section .transform{
     }
     
     .flex-item2 .pad{
-        padding-left: 80px;
+        padding-left: 15px;
         
     }
     
     .flex-item2 h2{
         font-size: 18px;
-        padding-left: 80px;
+        padding-left: 15px;
+        margin-bottom: 15px;
     }
     
     .partners{
         font-size: 14px;
-        margin-left: 80px;
+        margin-left: 18px;
     }
     
     .dropbox{
-        margin-left: 80px;
+        margin-left: 15px;
         margin-bottom: 30px;
     }
     
@@ -1213,8 +1205,8 @@ section .transform{
     .kit{
         width: auto;
         padding-top: 0;
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     
     .slick-list{
@@ -1281,6 +1273,22 @@ section .transform{
         text-align: center;
     }
     
+    .foot .cameroon{
+        font-size: 20px;
+        border-bottom: 2px solid #000;
+    }
+    
+    .foot ul{
+        display: none;
+        padding: 10px 85px;
+    }
+    
+    .foot .footMenu li{
+        padding: 5px 10px;
+        font-size: 18px;
+        border-bottom: 1px solid #29ABE2;
+    }
+
     .end{
         height: 200px;
         padding-left: 0;
@@ -1314,6 +1322,10 @@ section .transform{
 @media screen and (min-width: 1024px) and (max-width: 1200px){
     header{
         height: 640px;
+    }
+    
+    .pad{
+        font-size: 22px;
     }
     
     .flx-container{
@@ -1360,13 +1372,13 @@ section .transform{
     }
     
     .flex-item1{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 35px;
+        padding-right: 25px;
     }
     
     .flex-item2{
         width: 58%;
-        margin-top: 572px;
+        margin-top: 430px;
         padding-left: 80px;
         padding-right: 94px;
     }
