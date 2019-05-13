@@ -61,6 +61,11 @@ a{
     color: black;
 }
 
+b{
+    font-weight: 600;
+}
+    
+
 .blue-button a{
     color: white;
 }
@@ -84,6 +89,7 @@ ul{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-items: flex-end;
     padding-top: 30px;
     padding-right: 10px;
     position: relative;
@@ -363,7 +369,7 @@ img{
 }
 
 .sliderTwo{
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 265px;
     text-align: center;
     position: relative;
@@ -829,21 +835,55 @@ section .transform{
   stroke-dashoffset: -64px;
 }
 
-
-@media screen and (min-width: 768px){
-    .nawBtn{
-        display: none;
+@media screen and (max-width: 320px){
+    nav .mobProvidence{
+        display: inline-block;
+        font-size: 30px;
     }
     
-    .mobProvidence{
-        display: none;
+    .flex-container2 .flex-item1{
+        padding-right: 35px;
+        padding-left: 68px;
     }
     
-    .flx-container{
-        display: flex !important;
+    .flex-item1 .learn{
+        width: 40%;
+        margin-left: 100px;
+        margin-top: 10px;
     }
-} 
-
+    
+    .flex-item1 .hack {
+        display: block;
+        font-size: 16px;
+        width: 150px;
+        margin-top: 31px;
+        margin-left: 39px;
+    }
+    
+    .flex-item2 .padRight{
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 12px;
+    }
+    
+    .flex-item2 p .pad{
+        padding-left: 10px;
+    }
+    
+    .flex-container2{
+        background-position: center;
+    }
+    
+    .flex-container2 .flex-item2{
+        margin-top: 30px;
+        padding-right: 50px;
+    }
+    
+    .flex-item2 .padRight2{
+        padding-left: 0;
+        font-size: 12px;
+    }
+}
 @media screen and (max-width: 767px){
     header{
         height: auto;
@@ -877,7 +917,7 @@ section .transform{
         display: inline-block;
         position: absolute;
         font-size: 40px;
-        top: 14px;
+        top: 17px;
         left: 80px;
     }
     
@@ -960,6 +1000,7 @@ section .transform{
     .flex-container{
         flex-direction: column;
         height: auto;
+        padding-top: 50px;
     }
     
     .flex-item{
@@ -1142,7 +1183,15 @@ section .transform{
         width: 228px;
         height: 45px;
         border: 0;
-        background: white;
+        background: #F5F5F8;
+    }
+    
+    .mail{
+        background: #fff;
+    }
+    
+    b{
+        font-weight: 600;
     }
     
     .arrow1{
@@ -1154,6 +1203,7 @@ section .transform{
     
     .ui-kit{
         height: auto;
+        padding: 30px;
     }
     
     .kit p{
@@ -1162,8 +1212,15 @@ section .transform{
     
     .kit{
         width: auto;
+        padding-top: 0;
         margin-left: 80px;
         margin-right: 80px;
+    }
+    
+    .slick-list{
+        top: 5px;
+        left: 0;
+        
     }
     
     .big{
@@ -1171,7 +1228,10 @@ section .transform{
     }
     
     .sliderTwo{
-        margin-left: 0px;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 0px;
+        margin-bottom: 40px;
     }
     
     section .first{
@@ -1238,6 +1298,165 @@ section .transform{
     }
 
 }
+@media screen and (min-width: 768px){
+    .nawBtn{
+        display: none;
+    }
+    
+    .mobProvidence{
+        display: none;
+    }
+    
+    .flx-container{
+        display: flex !important;
+    }
+} 
+@media screen and (min-width: 1024px) and (max-width: 1200px){
+    header{
+        height: 640px;
+    }
+    
+    .flx-container{
+        padding-left: 30px;
+    }
+    
+    .flx-container .center{
+        width: 23%;
+    }
+    
+    .flx-menu{
+        text-align: left;
+        width: 11%;
+        font-size: 16px;
+    }
+    
+    .apple-icon {
+        display: inline-block;
+        vertical-align: middle;
+        padding-right: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .top {
+        padding: 70px 30px 30px;
+        font-size: 20px;
+        font-family: "MyriadPro", sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+    
+    .watch-video{
+        margin-top: 370px;
+        width: 23%;
+        margin-left: 33px;
+    }
+    
+    .flex-container{
+        width: 82%;
+    }
+    
+    .flex-container2{
+        height: 1800px;
+    }
+    
+    .flex-item1{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .flex-item2{
+        width: 58%;
+        margin-top: 572px;
+        padding-left: 80px;
+        padding-right: 94px;
+    }
+    
+    .decor{
+        margin-left: 488px;
+    }
+    
+    .decorate{
+        margin-left: 455px;
+    }
+    
+    .iphone{
+        width: 28%;
+        top: 315px;
+        left: 377px;
+    }
+    
+    .providence{
+        margin-left: 488px;
+    }
+    
+    .item-2{
+        margin-left: 255px;
+    }
+    
+    .item-3{
+        margin-left: 465px;
+    }
+    
+    .item-4{
+        margin-left: 410px;
+    }
+    
+    .sliderTwo{
+        margin-left: 110px;
+    }
+    
+    .slick-prev{
+        left: -58px;
+    }
+    
+    .slick-next{
+        right: 20px;
+    }
+    
+    .kit{
+        width: 500px;
+        text-align: center;
+        padding-top: 5px;
+        margin-left: 270px;
+    }
+    
+    .perfect-plan{
+        padding: 40px;
+        justify-content: space-between;
+    }
+    
+    .perfect-item{
+        width: 37%;
+    }
+    
+    section .first {
+        margin-right: 20px;
+        text-align: left;
+        width: 38%;
+    }
+    
+    .start {
+        margin-right: 25px;
+        margin-left: 70px;
+        padding-top: 40px;
+        padding-right: 120px;
+        width: 35%;
+    }
+    
+    .end{
+        padding-left: 90px;
+        position: relative;
+    }
+    
+    .craftwork{
+        margin-left: 305px;
+        position: absolute;
+        bottom: 26px;
+    }
+    
+}
+@media screen and (min-width: 1201px){}
+@media screen and (min-width: 1900px){}
 
 
 
