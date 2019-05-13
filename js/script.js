@@ -2,15 +2,17 @@ $( document ).ready(function() {
     $('.slider').slick({
   centerMode: false,
   arrows: false,
+  lazyLoad: 'ondemand',
   centerPadding: '60px',
   autoplay: true,
-  autoplaySpeed: 3000,      
+  autoplaySpeed: 2500,      
   slidesToShow: 3.66,
   responsive: [
     {
       breakpoint: 768,
       settings: {
         arrows: false,
+        lazyLoad: 'ondemand',
         centerMode: true,
         centerPadding: '0px',
         slidesToShow: 1
@@ -21,7 +23,9 @@ $( document ).ready(function() {
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '40px',
+        fade: true,
+        cssEase: 'linear',
+        centerPadding: '0px',
         slidesToShow: 1
       }
     }
